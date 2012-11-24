@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IRVING</Machine>
+    <WindowsUser>igonz_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Matrices.exe">
+      <PackagePath>Matrices.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Matrices.pdb">
+      <PackagePath>Matrices.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\matrices.png">
+      <PackagePath>Assets\matrices.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\SistemaDeEcuaciones.xaml">
+      <PackagePath>SistemaDeEcuaciones.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesUnarias.xaml">
+      <PackagePath>OperacionesUnarias.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesSimples.xaml">
+      <PackagePath>OperacionesSimples.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Resultado.xaml">
+      <PackagePath>Resultado.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesDobles.xaml">
+      <PackagePath>OperacionesDobles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

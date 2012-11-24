@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IRVING</Machine>
+    <WindowsUser>igonz_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>ED3F06D660BDC60D48FE250834B59958FDAE765507B32D9B7D6CD96ADFE75BF2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>05e63fc7-b67b-4ae9-b0d5-71ff5695850a_1.0.0.0_neutral__3qex03c65t1dw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>05e63fc7-b67b-4ae9-b0d5-71ff5695850a_3qex03c65t1dw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>05e63fc7-b67b-4ae9-b0d5-71ff5695850a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=igonz_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-24T03:34:20.395</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Matrices.exe">
+      <PackagePath>Matrices.exe</PackagePath>
+      <Modified>2012-11-24T04:21:12.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Matrices.pdb">
+      <PackagePath>Matrices.pdb</PackagePath>
+      <Modified>2012-11-24T04:21:12.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\matrices.png">
+      <PackagePath>Assets\matrices.png</PackagePath>
+      <Modified>2012-11-23T22:52:05.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-11-10T03:56:55.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-10T03:54:00.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-24T03:01:59.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\SistemaDeEcuaciones.xaml">
+      <PackagePath>SistemaDeEcuaciones.xaml</PackagePath>
+      <Modified>2012-11-24T03:04:06.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesUnarias.xaml">
+      <PackagePath>OperacionesUnarias.xaml</PackagePath>
+      <Modified>2012-11-24T03:02:53.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesSimples.xaml">
+      <PackagePath>OperacionesSimples.xaml</PackagePath>
+      <Modified>2012-11-24T03:02:27.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Resultado.xaml">
+      <PackagePath>Resultado.xaml</PackagePath>
+      <Modified>2012-11-24T03:15:47.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\OperacionesDobles.xaml">
+      <PackagePath>OperacionesDobles.xaml</PackagePath>
+      <Modified>2012-11-24T03:01:51.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T22:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\igonz_000\Documents\Visual Studio 2012\Projects\Matrices\Matrices\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-23T23:35:16.427</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

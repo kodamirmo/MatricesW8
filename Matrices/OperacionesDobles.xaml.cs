@@ -49,6 +49,20 @@ namespace Matrices
         /// session.  This will be null the first time a page is visited.</param>
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
+           
+            
+            if (pageState != null && pageState.ContainsKey("Matriz1"))
+            {
+                float[,] mat1 = (float[,])pageState["Matriz1"];
+                recuperarMatriz(stack1, 1, mat1);
+            }
+            if (pageState != null && pageState.ContainsKey("Matriz2"))
+            {
+                float[,] mat2 = (float[,])pageState["Matriz2"];
+                recuperarMatriz(stack2, 2, mat2);
+            }
+           
+            
         }
 
         /// <summary>
@@ -59,6 +73,8 @@ namespace Matrices
         /// <param name="pageState">An empty dictionary to be populated with serializable state.</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
+            pageState["Matriz1"] = sacarDatos(1);
+            pageState["Matriz2"] = sacarDatos(2);
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -112,6 +128,47 @@ namespace Matrices
                 
             }
           
+        }//Fin de iniciarMatriz
+
+
+        private void recuperarMatriz(StackPanel auxStack, int auxMatrix,float[,] matriz)
+        {
+
+            int count = 0;
+
+            for (int i = 0; i < tamano; i++)
+            {
+                StackPanel stack = new StackPanel();
+                stack.Orientation = Orientation.Horizontal;
+
+
+                for (int j = 0; j < tamano; j++)
+                {
+                    TextBox cajaTexto = new TextBox();
+                    cajaTexto.Height = 90;
+                    cajaTexto.Width = 90;
+                    cajaTexto.Name = "C" + count + "M" + auxMatrix;
+                    cajaTexto.Text = matriz[i,j].ToString();
+                    cajaTexto.IsReadOnly = false;
+                    cajaTexto.InputScope = new InputScope
+                    {
+                        Names ={ new InputScopeName() { NameValue=InputScopeNameValue.Number}
+                        }
+                    };
+
+                    cajaTexto.TextAlignment = TextAlignment.Center;
+                    cajaTexto.Margin = new Thickness(0, 0, 5, 5);
+
+                    count++;
+
+                    stack.Children.Add(cajaTexto);
+                }
+                stack.HorizontalAlignment = HorizontalAlignment.Center;
+                auxStack.Children.Add(stack);
+                auxStack.VerticalAlignment = VerticalAlignment.Center;
+
+            }
+
         }//Fin de iniciarMatriz
 
         private void Calcular_Click(object sender, RoutedEventArgs e)
